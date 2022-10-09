@@ -34,9 +34,9 @@ batch_size = 16
 epochs = 10000
 
 # bert配置
-config_path = '/home/jovyan/pretrained_model/bert_config.json'
-checkpoint_path = '/home/jovyan/pretrained_model/pytorch_model.bin'
-dict_path = '/home/jovyan/pretrained_model/vocab.txt'
+config_path = '/pretrained_model/bert_config.json'
+checkpoint_path = '/pretrained_model/pytorch_model.bin'
+dict_path = '/pretrained_model/vocab.txt'
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # 加载并精简词表，建立分词器
